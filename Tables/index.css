@@ -1,0 +1,14 @@
+article{
+width:200px;
+height:200px;
+margin:100px;
+padding:100px;
+transition-property: inherit;
+}
+div{
+    width:100px;
+    text-align:center;
+    margin:50px;
+    text-transform: uppercase;
+    height:100px;
+}

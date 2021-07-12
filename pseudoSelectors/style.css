@@ -1,0 +1,35 @@
+div{
+    width: 200px;
+    height:200px;
+    border:2px;
+    background-color:brown;
+    text-align: center;
+    padding:100px 100px 100px 100px;
+    margin:auto;
+}
+div:hover{
+    border-radius:100px;
+    cursor:pointer;
+    background-color: cadetblue;
+}
+
+input:focus{
+    background-color: #000;
+}
+button:active{
+    background-color:darkblue;
+}
+li:first-child{
+    text-transform:uppercase;
+    color: brown;
+font-weight: 40px;
+}
+p::first-letter{
+    font-size: 70px;
+}
+ul li{
+    color:dimgrey;
+}
+div+p{
+    color: gold;
+}

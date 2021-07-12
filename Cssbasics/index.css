@@ -1,0 +1,18 @@
+div{
+   background-color:maroon;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight:900;
+   font-size:large;
+   text-transform:uppercase;
+   text-decoration:solid; 
+   padding:10px;
+   margin:50px; 
+   border:2px solid blue;
+}
+h{
+    color:red;border:2px solid blue;background-color:yellow;
+}
+/*Attribute selector */
+a[href="http://google.com"]{
+    color:yellow;
+}
